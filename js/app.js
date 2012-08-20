@@ -5,6 +5,7 @@
 
         this.sections = ko.observableArray([
             new Section("intro"),
+            //new Section("test"),
             new Section("points"),
             new Section("one", "sample"),
             new Section("two", "sample"),

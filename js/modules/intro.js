@@ -1,7 +1,7 @@
 define(function() {
     return {
-        title: "This is my presentation",
-        speaker: "My Name",
-        twitter: "@myTwitterHandle"
+        title: "Building a Single Page Application With Knockout.js.",
+        speaker: "Joe Feser",
+        twitter: "@joefeser"
     };
 });
