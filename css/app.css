@@ -23,6 +23,14 @@ h2.center
     margin-top: 250px;
 }
 
+h2.centerintro
+{
+    font-size: 68px;
+    line-height: 88px;
+    margin-top: 165px;
+}
+
+
 #content
 {
     margin-top: 30px;
@@ -140,6 +148,13 @@ h2.center
 {
     font-size: 32px;
     padding: 20px;
+}
+
+.points span
+{
+    font-size: 20px;
+    padding-left: 20px;
+
 }
 
 .points a 

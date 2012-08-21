@@ -3,10 +3,18 @@
     return function() {
         var self = this;
 
+        //the index file looks for an array of sections (Page Transitions Left and Right)
         this.sections = ko.observableArray([
             new Section("intro"),
-            //new Section("test"),
             new Section("points"),
+
+            //sample is the name of the template to use as the base
+            new Section("declare", "sample"),
+            new Section("refresh", "intro"),
+            new Section("tracking", "sample"),
+            new Section("templating", "sample"),
+
+
             new Section("one", "sample"),
             new Section("two", "sample"),
             new Section("bye")

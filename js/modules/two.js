@@ -1,6 +1,6 @@
 define(["knockout", "sample"], function(ko, Sample) {
 
-    return  new Sample("Lazy Loaded Sample", "two", [
+    return new Sample("Lazy Loaded Sample", "two", [
         new Sample.State("Sample code","code"),
         new Sample.State("Build on code (Alt+? in editor to pull code)","more"),
         new Sample.State("Force update", "force", { forceLoad: true }),
