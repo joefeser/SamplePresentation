@@ -4,14 +4,15 @@ require.config({
         "jquery": "ext/jquery-1.7.2.min",
         "text": "ext/text",
         "codemirror": "ext/codemirror",
-        "bootstrap": "ext/bootstrap.min"
+        "bootstrap": "ext/bootstrap.min",
+        "twitterapi": "ext/twitterapi"
     },
     shim: {
         "bootstrap": ["jquery"]
     }
 });
 
-require(["knockout", "app", "jquery", "bootstrap", "utilities", "stringTemplateEngine", "text", "codemirror"], function(ko, App, $) {
+require(["knockout", "app", "jquery", "bootstrap", "utilities", "stringTemplateEngine", "text", "codemirror", "twitterapi"], function(ko, App, $) {
     var vm = new App();
 
     //simple client-side routing - update hash when current section is changed
