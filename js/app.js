@@ -15,8 +15,8 @@
             new Section("templating", "sample"),
 
 
-            new Section("one", "sample"),
-            new Section("two", "sample"),
+            //new Section("one", "sample"),
+            //new Section("two", "sample"),
             new Section("bye")
         ]);
 
