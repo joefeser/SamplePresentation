@@ -13,7 +13,7 @@
             new Section("refresh", "intro"),
             new Section("tracking", "sample"),
             new Section("templating", "sample"),
-
+            new Section("bindings", "sample"),
 
             //new Section("one", "sample"),
             //new Section("two", "sample"),
